@@ -1,0 +1,130 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+#title {
+    text-align: left;
+}
+
+.nav-items {
+    background-color: #6739B6;
+    color: #fff;
+    /* padding-left: 60px; */
+}
+
+.navbar-brand img {
+    width: 250px;
+    height: auto;
+}
+
+#navbar-change{
+    padding: 0 0 4.5rem;
+}
+
+.push-right {
+    justify-content: flex-end;
+}
+
+.nav-link {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.navbar a {
+    color: rgba(255, 255, 255, .5);
+    font-size: 1.2rem;
+}
+
+#container-fluid{
+    padding: 1% 10% 9%;
+}
+
+
+.big-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+    /* margin-top: 80px; */
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.image-iphone {
+    width: 20%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 20%;
+}
+
+
+#body-section {
+    padding: 4% 15%;
+    position: relative;
+}
+
+.box-section {
+    padding: 0;
+
+}
+
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 35px;
+}
+
+#feature {
+    margin: 0 10px;
+    box-shadow: 0px 49px 40px rgba(50, 50, 71, 0.05);
+    padding: 4rem;
+    align-items: center;
+    text-align: center;
+}
+
+.box-section img {
+    width: 64px;
+    height: auto;
+}
+
+
+
+.roundedimg {
+    border-radius: 50%;
+    height: 100px;
+    display: block;
+    margin: 30px auto;
+}
+
+.press-img {
+    width: 8%;
+    margin: 20px 40px;
+}
+
+.footer-area {
+    background-color: #f5f5f5;
+}
+
+#footer{
+    padding: 5% 1%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+    #title {
+      text-align: center;
+    }
+  
+    .image-iphone {
+      position: static;
+      transform: rotate(0);
+      width: 50%;
+    }
+  
+    h2 {
+      font-size: 2rem;
+    }
+  }
